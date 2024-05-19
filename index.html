@@ -537,7 +537,9 @@
     var $upArrow = $('.up-arrow')
 
     // background music control
-    $btnMusic.click(function () {
+    $btnMusic.click(function (e) {
+      e.stopPropagation()
+
       if (bgMusic.paused) {
         bgMusic.play()
         $(this).removeClass('paused')

@@ -76,8 +76,6 @@ var juzi = [
 ]
 
 var translateX = 0
-var timerLunbo
-
 function animate() {
   $('.text-carousel').html(
     `<span class="scroll-item"> <span class="fade-in">${juzi[translateX]}</span> </span>`
