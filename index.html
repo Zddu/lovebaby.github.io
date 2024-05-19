@@ -14,7 +14,6 @@
     <style></style>
   </head>
   <body>
-    <div class=""></div>
     <div id="fullPage">
       <div class="section page-1">
         <div class="heart"></div>
@@ -203,13 +202,16 @@
       </div>
       <div class="section page-7">
         <div class="leftbg">
-          <div class="page7-she">ylimhs❤️10.24</div>
           <img src="./pic/only.png" class="only" alt="" />
         </div>
         <div class="rightbg">
-          <div class="page7-me">shmily❤️5.11</div>
           <img src="./pic/weiyi.png" class="weiyi" alt="" />
         </div>
+        <div class="nicheng">
+          <div class="page7-she">ylimhs❤️10.24</div>
+          <div class="page7-me">shmily❤️5.11</div>
+        </div>
+        <img src="./pic/hua1.png" class="suibinglan" alt="" />
       </div>
     </div>
 
@@ -576,6 +578,12 @@
 
           if (origin.index() === 5) {
             wenben6.start()
+          }
+
+          if (origin.index() === 6) {
+            $('.up-arrow').hide()
+          } else {
+            $('.up-arrow').show()
           }
         },
       })
