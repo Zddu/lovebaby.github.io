@@ -212,6 +212,9 @@
           <div class="page7-me">shmily❤️5.11</div>
         </div>
         <img src="./pic/hua1.png" class="suibinglan" alt="" />
+        <div class="text-carousel-wrapper">
+          <div class="text-carousel scroll-wrap"></div>
+        </div>
       </div>
     </div>
 
@@ -247,6 +250,7 @@
   <script src="https://player.xfyun.club/js/xf-MusicPlayer/js/xf-MusicPlayer.min.js"></script> -->
   <script src="sakura.js"></script>
   <script src="jquery.fullPage.js"></script>
+  <script src="main.js"></script>
   <script>
     function compute(time) {
       const givenTime = new Date(time)
@@ -272,7 +276,7 @@
     }
 
     var times = compute('2024-02-15 09:30:00')
-
+    var fullpageIndex = 0
     // page6 type
     var wenben6 = new Typewriter('#wenben6', {
       loop: false,
@@ -545,6 +549,10 @@
 
     document.addEventListener('touchstart', function () {
       bgMusic.play()
+
+      if (fullpageIndex === 6) {
+        animate()
+      }
     })
 
     document.addEventListener('click', function () {
@@ -557,8 +565,7 @@
       $('#fullPage').fullpage({
         afterLoad: function (origin, destination, direction, trigger) {
           var origin = this
-          console.log('origin', origin.index())
-
+          fullpageIndex = origin.index()
           //使用 index
           if (origin.index() === 1) {
             $('.blue').addClass('blueani')
@@ -585,6 +592,7 @@
           }
 
           if (origin.index() === 6) {
+            textLunbo()
             $('.up-arrow').hide()
           } else {
             $('.up-arrow').show()
