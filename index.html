@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>520-Lovy-you:Lc</title>
+    <title>520-Love-you:Lc</title>
     <link
       href="https://cdn.bootcdn.net/ajax/libs/fullPage.js/4.0.22/fullpage.css"
       rel="stylesheet"
@@ -269,6 +269,8 @@
       }
     }
 
+    var times = compute('2024-02-15 09:30:00')
+
     // page6 type
     var wenben6 = new Typewriter('#wenben6', {
       loop: false,
@@ -285,13 +287,13 @@
       .pauseFor(800)
       .typeString(`<p>随着时间的流逝，你在我心中位置越来越重要</p>`)
       .pauseFor(800)
-      .typeString(`<p>只有当失去时才知道拥有时的珍贵</p>`)
+      .typeString(`<p>当失去后才知道拥有时的珍贵</p>`)
       .pauseFor(800)
       .typeString(`<p>未来我希望仍然能陪你走下去</p>`)
       .pauseFor(800)
       .typeString(`<p>我也会努力成长，无论是对工作、生活还是爱情</p>`)
       .pauseFor(800)
-      .typeString(`<p>我真的很喜欢你宝</p>`)
+      .typeString(`<p>希望我们双向奔赴，彼此成长</p>`)
       .pauseFor(800)
       .typeString(`<p>希望你能一直是我的伴侣</p>`)
       .pauseFor(800)
@@ -308,7 +310,9 @@
       .pauseFor(400)
       .typeString('<p>2024年</p>')
       .pauseFor(800)
-      .typeString(`<p>我们有<span style="color: brown;">93</span>天在聊天</p>`)
+      .typeString(
+        `<p>我们有<span class="tianshu" style="color: brown;">${times.days}</span>天在聊天</p>`
+      )
       .pauseFor(800)
       .typeString(`<p>有你在的日子里</p>`)
       .pauseFor(800)

@@ -580,9 +580,9 @@
 .ciyun-wrapper {
   width: 100%;
 
-    position: absolute;
-    bottom: 6px;
-    right: -86px;
+  position: absolute;
+  bottom: 6px;
+  right: -86px;
 }
 
 .hua {
@@ -615,68 +615,69 @@
 
 .bounce-in-left {
   opacity: 1;
-	-webkit-animation: bounce-in-left 1.2s both;
-	        animation: bounce-in-left 1.2s both;
+  -webkit-animation: bounce-in-left 1.2s both;
+  animation: bounce-in-left 1.2s both;
 }
 
 @keyframes bounce-in-left {
   0% {
     -webkit-transform: translateX(-600px);
-            transform: translateX(-600px);
+    transform: translateX(-600px);
     -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
     opacity: 0;
   }
   38% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
     -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
     opacity: 1;
   }
   55% {
     -webkit-transform: translateX(-68px);
-            transform: translateX(-68px);
+    transform: translateX(-68px);
     -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
   }
   72% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
     -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
   }
   81% {
     -webkit-transform: translateX(-28px);
-            transform: translateX(-28px);
+    transform: translateX(-28px);
     -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
   }
   90% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
     -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
   }
   95% {
     -webkit-transform: translateX(-8px);
-            transform: translateX(-8px);
+    transform: translateX(-8px);
     -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
   }
   100% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
     -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
   }
 }
 
-.page-5 > .fp-tableCell, .page-6 > .fp-tableCell{
+.page-5 > .fp-tableCell,
+.page-6 > .fp-tableCell {
   position: relative;
   width: 100%;
   height: 100%;
-  background-image: url("./pic/chunbg.png");
+  background-image: url('./pic/chunbg.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -689,7 +690,7 @@
   overflow: hidden;
   border-radius: 0px;
   box-shadow: black 0px 0px 0px;
-  background-image: url("./pic/bgdong.gif");
+  background-image: url('./pic/bgdong.gif');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: -337.957px 0px;
@@ -702,7 +703,7 @@
 }
 
 .wenben {
-  background-image: url("./pic/biankuang.jpg");
+  background-image: url('./pic/biankuang.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -724,7 +725,7 @@
   right: 7px;
   bottom: 95px;
   width: 122.159px;
-  height:  460.444px;
+  height: 460.444px;
   z-index: 11;
 }
 
@@ -732,7 +733,7 @@
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 158.438px ;
+  width: 158.438px;
   height: 151.442px;
   z-index: 11;
 }
@@ -742,7 +743,7 @@
   bottom: 0px;
   left: 0;
   width: 375.873px;
-  height:  228.46px;
+  height: 228.46px;
   z-index: 10;
 }
 
@@ -751,7 +752,7 @@
   bottom: 0px;
   left: 0;
   width: 375.873px;
-  height:  228.46px;
+  height: 228.46px;
 }
 
 #wenben {
@@ -766,6 +767,9 @@
   margin: 22px 20px 0 20px;
   font-size: 14px;
   font-weight: bold;
+  position: absolute;
+  z-index: 15;
+  width: 71%;
 }
 
 .page-7 > .fp-tableCell {
@@ -782,7 +786,7 @@
   position: relative;
   width: 50%;
   height: 100%;
-  background-image: url("./pic/leftbg.jpg");
+  background-image: url('./pic/leftbg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -792,7 +796,7 @@
   position: relative;
   width: 50%;
   height: 100%;
-  background-image: url("./pic/rigthbg.jpg");
+  background-image: url('./pic/rigthbg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -818,14 +822,14 @@
   position: absolute;
   top: 55%;
   left: 4px;
-color: rgb(0, 159, 174);
-font-size: 20px;
+  color: rgb(0, 159, 174);
+  font-size: 20px;
 }
 
 .page7-she {
   position: absolute;
   top: 55%;
   right: 4px;
-color: rgb(220, 90, 90);
-font-size: 20px;
+  color: rgb(220, 90, 90);
+  font-size: 20px;
 }
