@@ -4,16 +4,81 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>520-Love-you:Lc</title>
-    <link
-      href="https://cdn.bootcdn.net/ajax/libs/fullPage.js/4.0.22/fullpage.css"
-      rel="stylesheet"
-    />
+
+    <style>
+      .full {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 100;
+        background-color: #fbe8e8;
+      }
+
+      .lds-ripple,
+      .lds-ripple div {
+        box-sizing: border-box;
+      }
+      .lds-ripple {
+        display: inline-block;
+        position: absolute;
+        width: 80px;
+        height: 80px;
+      }
+      .lds-ripple div {
+        position: absolute;
+        border: 4px solid currentColor;
+        opacity: 1;
+        border-radius: 50%;
+        animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+      }
+      .lds-ripple div:nth-child(2) {
+        animation-delay: -0.5s;
+      }
+      @keyframes lds-ripple {
+        0% {
+          top: 36px;
+          left: 36px;
+          width: 8px;
+          height: 8px;
+          opacity: 0;
+        }
+        4.9% {
+          top: 36px;
+          left: 36px;
+          width: 8px;
+          height: 8px;
+          opacity: 0;
+        }
+        5% {
+          top: 36px;
+          left: 36px;
+          width: 8px;
+          height: 8px;
+          opacity: 1;
+        }
+        100% {
+          top: 0;
+          left: 0;
+          width: 80px;
+          height: 80px;
+          opacity: 0;
+        }
+      }
+    </style>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="btn.css" />
     <link rel="stylesheet" href="main.css" />
-    <style></style>
   </head>
-  <body>
+  <body style="padding: 0; margin: 0">
+    <div class="full">
+      <div class="lds-ripple">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
     <div id="fullPage">
       <div class="section page-1">
         <div class="heart"></div>
@@ -230,24 +295,8 @@
       <source src="mp3/yuebanxiaoyequ.mp3" type="audio/mpeg" />
     </audio>
   </body>
-  <script src="http://libs.baidu.com/jquery/1.7.2/jquery.js"></script>
-  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-  <!--樱花特效在线引入-->
-
-  <script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
-
-  <!-- 音乐播放器代码 -->
-  <!-- <div id="music" key="64a2b85c43be6" api="https://y.cenguigui.cn"></div>
-  <script
-    id="xplayer"
-    src="https://y.cenguigui.cn/Static/player9/js/player.js"
-  ></script> -->
-  <!-- <div
-    id="xf-MusicPlayer"
-    data-themeColor="gui-girlPink"
-    data-cdnName="https://player.xfyun.club/js"
-  ></div>
-  <script src="https://player.xfyun.club/js/xf-MusicPlayer/js/xf-MusicPlayer.min.js"></script> -->
+  <script src="jq.min.js"></script>
+  <script src="type.min.js"></script>
   <script src="sakura.js"></script>
   <script src="jquery.fullPage.js"></script>
   <script src="main.js"></script>
@@ -602,6 +651,10 @@
         },
       })
     })
+
+    setTimeout(() => {
+      $('.full').remove()
+    }, 1500)
   </script>
   <script>
     var _hmt = _hmt || []
