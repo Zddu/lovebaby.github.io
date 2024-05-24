@@ -1,0 +1,111 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  /* 去除默认的下划线 */
+  outline: none;
+  /* 去除旧版浏览器的点击后的外虚线框 */
+  color: #000;
+  /* 去除默认的颜色和点击后变化的颜色 */
+}
+
+.list {
+  background-color: antiquewhite;
+  width: 100%;
+  height: 100%;
+
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.card {
+  display: block;
+  border-radius: 12px;
+  background-color: #fff;
+  border: 0.5px solid #d2d2d2;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 17px;
+  padding: 12px;
+  box-sizing: border-box;
+  color: rgb(154, 64, 64);
+}
+
+.bg-img {
+  width: 100%;
+  height: 168px;
+  background-repeat: no-repeat;
+}
+
+.bg520 {
+  background-position: center;
+  background-size: cover;
+}
+
+.bg61 {
+  background-position: center;
+  background-size: contain;
+  overflow: hidden;
+}
+
+.bg61 > video {
+  width: 100%;
+}
+
+.footer-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  color: #beb9b9;
+}
+
+.title-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-center {
+  flex: 1;
+  background-image: url("./assets/title-center.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 60px;
+}
+
+.title-text {
+  font-size: 32px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: 8px;
+}
+
+.bg {
+  /* position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+  width: 100%;
+  height: 60px;
+  background-image: url("./assets/title-icon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 6px;
+}

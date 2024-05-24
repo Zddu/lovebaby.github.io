@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>520-Love-you:Lc</title>
+
+    <style>
+      .full {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 100;
+        background-color: #fbe8e8;
+      }
+
+      .lds-ripple,
+      .lds-ripple div {
+        box-sizing: border-box;
+      }
+      .lds-ripple {
+        display: inline-block;
+        position: absolute;
+        width: 80px;
+        height: 80px;
+      }
+      .lds-ripple div {
+        position: absolute;
+        border: 4px solid currentColor;
+        opacity: 1;
+        border-radius: 50%;
+        animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+      }
+      .lds-ripple div:nth-child(2) {
+        animation-delay: -0.5s;
+      }
+      @keyframes lds-ripple {
+        0% {
+          top: 36px;
+          left: 36px;
+          width: 8px;
+          height: 8px;
+          opacity: 0;
+        }
+        4.9% {
+          top: 36px;
+          left: 36px;
+          width: 8px;
+          height: 8px;
+          opacity: 0;
+        }
+        5% {
+          top: 36px;
+          left: 36px;
+          width: 8px;
+          height: 8px;
+          opacity: 1;
+        }
+        100% {
+          top: 0;
+          left: 0;
+          width: 80px;
+          height: 80px;
+          opacity: 0;
+        }
+      }
+    </style>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="btn.css" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body style="padding: 0; margin: 0">
+    <div class="full">
+      <div class="lds-ripple">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <div id="fullPage">
+      <div class="section page-1">
+        <div class="heart"></div>
+        <div class="line">
+          <div class="font5">5</div>
+          <div class="font2">2</div>
+          <div class="fontkl">快乐丫 0 0</div>
+        </div>
+        <div class="left">
+          <img
+            style="margin-top: 15%"
+            src="./pic/renwu1.jpg"
+            width="147"
+            height="170"
+          />
+          <div class="me"></div>
+
+          <div class="xing heart1"></div>
+          <div class="xing heart2"></div>
+          <div class="xing heart3"></div>
+        </div>
+        <div class="right">
+          <img
+            style="margin-top: 15%"
+            src="./pic/renwu2.jpg"
+            width="147"
+            height="170"
+          />
+
+          <div class="she"></div>
+          <div class="xing heart1"></div>
+          <div class="xing heart2"></div>
+          <div class="xing heart3"></div>
+        </div>
+      </div>
+      <div class="section page-2">
+        <div class="blue"></div>
+        <div class="pink"></div>
+        <div class="touxiang">
+          <img src="./pic/wx1.jpg" class="wx wxme" width="96" height="96" />
+          <img src="./pic/xinfeng.png" class="xinfeng" />
+          <img src="./pic/wx2.jpg" class="wx wxshe" width="96" height="96" />
+        </div>
+        <div class="talk" id="typewriter"></div>
+      </div>
+      <div class="section page-3">
+        <div class="imgs-list">
+          <img src="./pic/love.jpg" alt="" class="love" />
+          <img src="./pic/you.png" alt="" class="you" />
+        </div>
+        <div class="type-word" id="typeword"></div>
+        <div class="pianduan" id="typeword2">
+          <div class="dialog-container">
+            <div class="item item-center">2024-04-08 22:21:22</div>
+
+            <div class="item item-right">
+              <div class="bubble bubble-right">
+                <span>可以</span
+                ><img
+                  src="https://res.wx.qq.com/t/wx_fed/we-emoji/res/v1.2.8/assets/Expression/Expression_53@2x.png"
+                  alt=""
+                  class="emoji_img"
+                />
+              </div>
+              <img
+                class="bubble-avatar"
+                src="https://wx.qlogo.cn/mmhead/ver_1/hSHV3xNvMUWvyPO3MEhfia3M59ib4iblSqLp78kUPJ0Po9ARFDVcvGicado9DR3URcHupmLJuNx7NIVmu5WahYY8ZKsIq5VGJSib0lD2B0nMjfI516icpbV9iaSy364k8VSVEc3/132"
+              />
+            </div>
+            <div class="item item-left">
+              <img
+                class="bubble-avatar"
+                src="https://wx.qlogo.cn/mmhead/ver_1/wEClFd4ic51kqoZYibVlh3dRF3PEMA1OSmVvMOLsvaiaw4elS5KRGYLpWypehWpfJo0poicukMVGFnNIdNibnzUAa3ecFoAQDSicHz4GXyBe7Pl1vqExaI7Jjx7MIQYRsqZser/132"
+              />
+              <div class="bubble bubble-left">好的</div>
+            </div>
+
+            <div class="item item-center">2024-03-31 22:15:14</div>
+
+            <div class="item item-right">
+              <div class="bubble bubble-right">
+                <span style="color: red">亲亲</span><span>宝</span>
+              </div>
+              <img
+                class="bubble-avatar"
+                src="https://wx.qlogo.cn/mmhead/ver_1/hSHV3xNvMUWvyPO3MEhfia3M59ib4iblSqLp78kUPJ0Po9ARFDVcvGicado9DR3URcHupmLJuNx7NIVmu5WahYY8ZKsIq5VGJSib0lD2B0nMjfI516icpbV9iaSy364k8VSVEc3/132"
+              />
+            </div>
+            <div class="item item-left">
+              <img
+                class="bubble-avatar"
+                src="https://wx.qlogo.cn/mmhead/ver_1/wEClFd4ic51kqoZYibVlh3dRF3PEMA1OSmVvMOLsvaiaw4elS5KRGYLpWypehWpfJo0poicukMVGFnNIdNibnzUAa3ecFoAQDSicHz4GXyBe7Pl1vqExaI7Jjx7MIQYRsqZser/132"
+              />
+              <div class="bubble bubble-left">亲一口你还亲我三口</div>
+            </div>
+
+            <div class="item item-center">2024-05-05 03:49:36</div>
+
+            <div class="item item-left">
+              <img
+                class="bubble-avatar"
+                src="https://wx.qlogo.cn/mmhead/ver_1/wEClFd4ic51kqoZYibVlh3dRF3PEMA1OSmVvMOLsvaiaw4elS5KRGYLpWypehWpfJo0poicukMVGFnNIdNibnzUAa3ecFoAQDSicHz4GXyBe7Pl1vqExaI7Jjx7MIQYRsqZser/132"
+              />
+              <div class="bubble bubble-left">
+                <img
+                  src="https://res.wx.qq.com/t/wx_fed/we-emoji/res/v1.2.8/assets/Expression/Expression_53@2x.png"
+                  alt=""
+                  class="emoji_img"
+                />
+                <img
+                  src="https://res.wx.qq.com/t/wx_fed/we-emoji/res/v1.2.8/assets/Expression/Expression_53@2x.png"
+                  alt=""
+                  class="emoji_img"
+                />
+              </div>
+            </div>
+            <div class="item item-right">
+              <div class="bubble bubble-right">
+                <img
+                  src="https://res.wx.qq.com/t/wx_fed/we-emoji/res/v1.2.8/assets/Expression/Expression_53@2x.png"
+                  alt=""
+                  class="emoji_img"
+                /><img
+                  src="https://res.wx.qq.com/t/wx_fed/we-emoji/res/v1.2.8/assets/Expression/Expression_53@2x.png"
+                  alt=""
+                  class="emoji_img"
+                /><img
+                  src="https://res.wx.qq.com/t/wx_fed/we-emoji/res/v1.2.8/assets/Expression/Expression_53@2x.png"
+                  alt=""
+                  class="emoji_img"
+                />
+              </div>
+              <img
+                class="bubble-avatar"
+                src="https://wx.qlogo.cn/mmhead/ver_1/hSHV3xNvMUWvyPO3MEhfia3M59ib4iblSqLp78kUPJ0Po9ARFDVcvGicado9DR3URcHupmLJuNx7NIVmu5WahYY8ZKsIq5VGJSib0lD2B0nMjfI516icpbV9iaSy364k8VSVEc3/132"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="dibu-pic">
+          <img src="./pic/dangao.png" class="dangao" alt="" />
+          <img src="./pic/chuanxin.jpg" class="chuanxin" alt="" />
+        </div>
+      </div>
+      <div class="section page-4">
+        <div class="page-4-title">
+          <div class="title-4">
+            <div class="stay_smile">STAY</div>
+            <div class="stay_desc">SMILE,STAY IMPROVE</div>
+          </div>
+          <div class="desc-4">Every day with you is full of happiness</div>
+        </div>
+        <div id="typeword4"></div>
+        <div class="ciyun-wrapper">
+          <img src="./pic/ciyun.svg" class="ciyun" alt="" />
+        </div>
+        <div class="hua">
+          <img src="./pic/hua.jpg" class="hua-img" alt="" />
+        </div>
+      </div>
+      <div class="section page-5">
+        <div class="bg-wrapper"></div>
+        <img src="./pic/aixin.gif" class="aixin" alt="" />
+        <div class="wenben-wrapper">
+          <div class="wenben">
+            <div id="wenben"></div>
+          </div>
+        </div>
+        <img src="./pic/qiqiu.png" class="qiqiu-5" alt="" />
+        <img src="./pic/qiche.png" class="qiche" alt="" />
+        <img src="./pic/bolang.png" class="bolang" alt="" />
+        <img src="./pic/yuncai.png" class="yuncai" alt="" />
+      </div>
+      <div class="section page-6">
+        <div class="bg-wrapper"></div>
+        <img src="./pic/aixin.gif" class="aixin" alt="" />
+        <div class="wenben-wrapper">
+          <div class="wenben">
+            <div id="wenben6"></div>
+          </div>
+        </div>
+        <img src="./pic/qiqiu.png" class="qiqiu-5" alt="" />
+        <img src="./pic/qiche.png" class="qiche" alt="" />
+        <img src="./pic/bolang.png" class="bolang" alt="" />
+        <img src="./pic/yuncai.png" class="yuncai" alt="" />
+      </div>
+      <div class="section page-7">
+        <div class="leftbg">
+          <img src="./pic/only.png" class="only" alt="" />
+        </div>
+        <div class="rightbg">
+          <img src="./pic/weiyi.png" class="weiyi" alt="" />
+        </div>
+        <div class="nicheng">
+          <div class="page7-she">ylimhs❤️10.24</div>
+          <div class="page7-me">shmily❤️5.11</div>
+        </div>
+        <img src="./pic/hua1.png" class="suibinglan" alt="" />
+        <div class="text-carousel-wrapper">
+          <div class="text-carousel scroll-wrap"></div>
+        </div>
+      </div>
+    </div>
+
+    <button class="up-arrow">
+      <i class="icon-angle-double-up"></i>
+    </button>
+
+    <button class="btn-music">
+      <i class="icon-note"></i>
+    </button>
+
+    <audio autoplay="autoplay" loop>
+      <source src="mp3/yuebanxiaoyequ.mp3" type="audio/mpeg" />
+    </audio>
+  </body>
+  <script src="../common/jq.min.js"></script>
+  <script src="type.min.js"></script>
+  <script src="sakura.js"></script>
+  <script src="../common/jquery.fullPage.js"></script>
+  <script src="main.js"></script>
+  <script>
+    function compute(time) {
+      const givenTime = new Date(time)
+
+      const now = new Date()
+      const diffInMillis = now - givenTime
+
+      const days = Math.floor(diffInMillis / (1000 * 60 * 60 * 24))
+      const hours = Math.floor(
+        (diffInMillis % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      )
+      const minutes = Math.floor(
+        (diffInMillis % (1000 * 60 * 60)) / (1000 * 60)
+      )
+      const seconds = Math.floor((diffInMillis % (1000 * 60)) / 1000)
+      console.log('days', days)
+      return {
+        days,
+        hours,
+        minutes,
+        seconds,
+      }
+    }
+
+    var times = compute('2024-02-15 09:30:00')
+    var fullpageIndex = 0
+    // page6 type
+    var wenben6 = new Typewriter('#wenben6', {
+      loop: false,
+      delay: 45,
+      cursorClassName: 'zdde-cursor',
+    })
+    wenben6
+      .pauseFor(400)
+      .typeString('<p>亲爱的</p>')
+      .pauseFor(800)
+      .typeString(`<p>我们从开始了解到现在已经三个月了</p>`)
+      .pauseFor(800)
+      .typeString(`<p>时间不算长，但也快百天了</p>`)
+      .pauseFor(800)
+      .typeString(`<p>随着时间的流逝，你在我心中位置越来越重要</p>`)
+      .pauseFor(800)
+      .typeString(`<p>当失去后才知道拥有时的珍贵</p>`)
+      .pauseFor(800)
+      .typeString(`<p>未来我希望仍然能陪你走下去</p>`)
+      .pauseFor(800)
+      .typeString(`<p>我也会努力成长，无论是对工作、生活还是爱情</p>`)
+      .pauseFor(800)
+      .typeString(`<p>希望我们双向奔赴，彼此成长</p>`)
+      .pauseFor(800)
+      .typeString(`<p>希望你能一直是我的伴侣</p>`)
+      .pauseFor(800)
+      .typeString(`<p>爱你，宝</p>`)
+
+    // page5 type
+    var wenben = new Typewriter('#wenben', {
+      loop: false,
+      delay: 45,
+      cursorClassName: 'zdde-cursor',
+    })
+
+    wenben
+      .pauseFor(400)
+      .typeString('<p>2024年</p>')
+      .pauseFor(800)
+      .typeString(
+        `<p>我们有<span class="tianshu" style="color: brown;">${times.days}</span>天在聊天</p>`
+      )
+      .pauseFor(800)
+      .typeString(`<p>有你在的日子里</p>`)
+      .pauseFor(800)
+      .typeString(`<p>都很有<span style="color: brown;">意义</span>！</p>`)
+      .pauseFor(800)
+      .typeString(`<p>这一年</p>`)
+      .pauseFor(800)
+      .typeString(
+        `<p>一共发送了<span style="color: brown;">1217</span>个表情包</p>`
+      )
+      .pauseFor(800)
+      .typeString(`<p>你最常用的表情包是</p>`)
+      .pasteString(
+        `<img height="50" width="50" src="http://vweixinf.tc.qq.com/110/20401/stodownload?m=477c813ef19cdfda012997bd2c1ee275&filekey=30440201010430302e02016e0402535a04203437376338313365663139636466646130313239393762643263316565323735020303c6b6040d00000004627466730000000132&hy=SZ&storeid=2628877eb000e9eb55b7031e60000006e01004fb1535a0b7d6870b69d4091e&ef=1&bizid=1022" />`
+      )
+      .pauseFor(800)
+      .typeString(`<p>希望未来的日子里</p>`)
+      .pauseFor(800)
+      .typeString(`<p>你能快快乐乐，健健康康！</p>`)
+
+    // page4 type
+    var typeword4 = new Typewriter('#typeword4', {
+      loop: false,
+      delay: 45,
+      cursorClassName: 'zdde-cursor',
+    })
+    typeword4
+      .pauseFor(800)
+      .typeString('<p class="page4-wenan">这一年里</p>')
+      .pauseFor(1000)
+      .typeString('<p class="page4-wenan">我们一共发送了25102条消息</p>')
+      .pauseFor(1000)
+      .typeString('<p class="page4-wenan">总共167774字</p>')
+      .callFunction(function () {
+        $('.ciyun').addClass('bounce-in-left')
+      })
+
+    // page3 type
+    var typeword = new Typewriter('#typeword', {
+      loop: false,
+      delay: 45,
+      cursorClassName: 'zdde-cursor',
+    })
+    var typeword2 = new Typewriter('#typeword2', {
+      loop: false,
+      delay: 20,
+      cursorClassName: 'zdde-cursor',
+    })
+
+    typeword2
+      .pauseFor(800)
+      .pasteString(
+        `  <div class="dialog-container">
+            <div class="item item-center">2024-04-08 22:21:22</div>
+
+            <div class="item item-right">
+              <div class="bubble bubble-right">
+                <span>可以</span
+                ><img
+                  src="https://res.wx.qq.com/t/wx_fed/we-emoji/res/v1.2.8/assets/Expression/Expression_53@2x.png"
+                  alt=""
+                  class="emoji_img"
+                />
+              </div>
+              <img
+                class="bubble-avatar"
+                src="https://wx.qlogo.cn/mmhead/ver_1/hSHV3xNvMUWvyPO3MEhfia3M59ib4iblSqLp78kUPJ0Po9ARFDVcvGicado9DR3URcHupmLJuNx7NIVmu5WahYY8ZKsIq5VGJSib0lD2B0nMjfI516icpbV9iaSy364k8VSVEc3/132"
+              />
+            </div>
+            <div class="item item-left">
+              <img
+                class="bubble-avatar"
+                src="https://wx.qlogo.cn/mmhead/ver_1/wEClFd4ic51kqoZYibVlh3dRF3PEMA1OSmVvMOLsvaiaw4elS5KRGYLpWypehWpfJo0poicukMVGFnNIdNibnzUAa3ecFoAQDSicHz4GXyBe7Pl1vqExaI7Jjx7MIQYRsqZser/132"
+              />
+              <div class="bubble bubble-left">好的</div>
+            </div>
+
+            <div class="item item-center">2024-03-31 22:15:14</div>
+
+            <div class="item item-right">
+              <div class="bubble bubble-right">
+                <span style="color: red">亲亲</span><span>宝</span>
+              </div>
+              <img
+                class="bubble-avatar"
+                src="https://wx.qlogo.cn/mmhead/ver_1/hSHV3xNvMUWvyPO3MEhfia3M59ib4iblSqLp78kUPJ0Po9ARFDVcvGicado9DR3URcHupmLJuNx7NIVmu5WahYY8ZKsIq5VGJSib0lD2B0nMjfI516icpbV9iaSy364k8VSVEc3/132"
+              />
+            </div>
+            <div class="item item-left">
+              <img
+                class="bubble-avatar"
+                src="https://wx.qlogo.cn/mmhead/ver_1/wEClFd4ic51kqoZYibVlh3dRF3PEMA1OSmVvMOLsvaiaw4elS5KRGYLpWypehWpfJo0poicukMVGFnNIdNibnzUAa3ecFoAQDSicHz4GXyBe7Pl1vqExaI7Jjx7MIQYRsqZser/132"
+              />
+              <div class="bubble bubble-left">亲一口你还亲我三口</div>
+            </div>
+
+            <div class="item item-center">2024-05-05 03:49:36</div>
+
+            <div class="item item-left">
+              <img
+                class="bubble-avatar"
+                src="https://wx.qlogo.cn/mmhead/ver_1/wEClFd4ic51kqoZYibVlh3dRF3PEMA1OSmVvMOLsvaiaw4elS5KRGYLpWypehWpfJo0poicukMVGFnNIdNibnzUAa3ecFoAQDSicHz4GXyBe7Pl1vqExaI7Jjx7MIQYRsqZser/132"
+              />
+              <div class="bubble bubble-left">
+                <img
+                  src="https://res.wx.qq.com/t/wx_fed/we-emoji/res/v1.2.8/assets/Expression/Expression_53@2x.png"
+                  alt=""
+                  class="emoji_img"
+                />
+                <img
+                  src="https://res.wx.qq.com/t/wx_fed/we-emoji/res/v1.2.8/assets/Expression/Expression_53@2x.png"
+                  alt=""
+                  class="emoji_img"
+                />
+              </div>
+            </div>
+            <div class="item item-right">
+              <div class="bubble bubble-right">
+                <img
+                  src="https://res.wx.qq.com/t/wx_fed/we-emoji/res/v1.2.8/assets/Expression/Expression_53@2x.png"
+                  alt=""
+                  class="emoji_img"
+                /><img
+                  src="https://res.wx.qq.com/t/wx_fed/we-emoji/res/v1.2.8/assets/Expression/Expression_53@2x.png"
+                  alt=""
+                  class="emoji_img"
+                /><img
+                  src="https://res.wx.qq.com/t/wx_fed/we-emoji/res/v1.2.8/assets/Expression/Expression_53@2x.png"
+                  alt=""
+                  class="emoji_img"
+                />
+              </div>
+              <img
+                class="bubble-avatar"
+                src="https://wx.qlogo.cn/mmhead/ver_1/hSHV3xNvMUWvyPO3MEhfia3M59ib4iblSqLp78kUPJ0Po9ARFDVcvGicado9DR3URcHupmLJuNx7NIVmu5WahYY8ZKsIq5VGJSib0lD2B0nMjfI516icpbV9iaSy364k8VSVEc3/132"
+              />
+            </div>
+          </div>`
+      )
+      .callFunction(function () {
+        $('.chuanxin').addClass('slide-left')
+      })
+
+    typeword
+      .pauseFor(800)
+      .typeString('<p class="page3-wenan">二O二四</p>')
+      .pauseFor(1000)
+      .typeString('<p class="page3-wenan">我们说的最多的是</p>')
+      .pauseFor(1000)
+      .typeString(
+        '<p class="page3-qinqin">“亲亲”<span class="page3-count">1561 <span class="count">次</span></span></p>'
+      )
+      .callFunction(function () {
+        typeword2.start()
+      })
+
+    // page3 type
+
+    // 打字机特效
+    var typewriter = new Typewriter('#typewriter', {
+      loop: false,
+      delay: 45,
+      cursorClassName: 'zdde-cursor',
+    })
+
+    var timeObj = compute('2023-10-11 10:28:51')
+
+    typewriter
+      .pauseFor(800)
+      .typeString('<p class="wenan">我们第一次聊天是在</p>')
+      .pauseFor(1000)
+      .typeString(' <p class="wenan">2023-10-11 10:28:51</p>')
+      .pauseFor(1000)
+      .pasteString(
+        `
+        <div class="jilu">
+          <div class="wx-left">
+            <img src="./pic/wx2.jpg" width="42" height="42" alt="" />
+            <div class="bubble bubble-left">
+              <span>哥哥 你学的编程不</span>
+              <img
+                src="https://res.wx.qq.com/t/wx_fed/we-emoji/res/v1.2.8/assets/newemoji/Hurt.png"
+                class="emoji_img"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="wx-right" style="margin-top: 15px">
+            <div class="bubble bubble-right">
+              <span>是的，但是编程很多种，我只学了一种</span>
+            </div>
+            <img src="./pic/wx1.jpg" width="42" height="42" alt="" />
+          </div>
+        </div>
+      `
+      )
+      .pauseFor(1000)
+      .typeString('<p class="wenan">距今已有</p>')
+      .pauseFor(1000)
+      .typeString(
+        `<p id="time" class="wenan">${timeObj.days} 天 ${timeObj.hours} 小时 ${timeObj.minutes} 分钟 ${timeObj.seconds} 秒</p>`
+      )
+      .callFunction((res) => {
+        setInterval(() => {
+          const timestr = compute('2023-10-11 10:28:51')
+          $('#time').text(
+            `${timestr.days} 天 ${timestr.hours} 小时 ${timestr.minutes} 分钟 ${timestr.seconds} 秒`
+          )
+        }, 1000)
+      })
+
+      .pauseFor(1000)
+
+    var bgMusic = $('audio').get(0)
+    var $btnMusic = $('.btn-music')
+    var $upArrow = $('.up-arrow')
+
+    // background music control
+    $btnMusic.click(function (e) {
+      e.stopPropagation()
+
+      if (bgMusic.paused) {
+        bgMusic.play()
+        $(this).removeClass('paused')
+      } else {
+        bgMusic.pause()
+        $(this).addClass('paused')
+      }
+    })
+
+    document.addEventListener('touchstart', function () {
+      bgMusic.play()
+
+      if (fullpageIndex === 6) {
+        animate()
+      }
+    })
+
+    document.addEventListener('click', function () {
+      bgMusic.play()
+    })
+
+    // 业务逻辑代码
+
+    $(function () {
+      $('#fullPage').fullpage({
+        afterLoad: function (origin, destination, direction, trigger) {
+          var origin = this
+          fullpageIndex = origin.index()
+          //使用 index
+          if (origin.index() === 1) {
+            $('.blue').addClass('blueani')
+            $('.pink').addClass('pinkani')
+            typewriter.start()
+          }
+
+          if (origin.index() === 2) {
+            $('.love').addClass('loveani')
+            $('.you').addClass('youani')
+            typeword.start()
+          }
+
+          if (origin.index() === 3) {
+            typeword4.start()
+          }
+
+          if (origin.index() === 4) {
+            wenben.start()
+          }
+
+          if (origin.index() === 5) {
+            wenben6.start()
+          }
+
+          if (origin.index() === 6) {
+            textLunbo()
+            $('.up-arrow').hide()
+          } else {
+            $('.up-arrow').show()
+          }
+        },
+      })
+    })
+
+    setTimeout(() => {
+      $('.full').remove()
+    }, 1500)
+
+    $(document).ready(function () {
+      if ($(window).width() > 960)
+        // 获取页面的初始宽高
+        var height = $(window).height()
+
+      // 计算并设置页面的高度，使其与宽度保持 0.462 的比例
+      var newWidth = height * 0.462
+      $('html').css('width', newWidth)
+      $('html').css('margin', '0 auto')
+
+      // 监听窗口大小变化事件，实时调整页面高度
+      $(window).resize(function () {
+        height = $(window).height()
+        newWidth = height * 0.462
+        $('html').css('width', newWidth)
+      })
+    })
+  </script>
+  <script src="../common/hm.js"></script>
+</html>
