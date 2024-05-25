@@ -117,3 +117,19 @@ a {
   background-size: contain;
   margin-bottom: 6px;
 }
+
+.note {
+  width: 68px;
+  height: 38px;
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+  border: 0.5px solid #eee;
+  position: fixed;
+  right: 0;
+  bottom: 20px;
+  background-color: #221c1c;
+  color: #beb9b9;
+  text-align: center;
+  line-height: 38px;
+  font-size: 10px;
+}

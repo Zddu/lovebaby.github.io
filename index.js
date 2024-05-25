@@ -36,7 +36,7 @@ function limitEnter() {
           window.location.href = './61/index.html'
         } else {
           mdui.snackbar({
-            message: '暂无',
+            message: '暂无，建设中',
             placement: 'top',
             autoCloseDelay: 2000,
           })
@@ -46,8 +46,24 @@ function limitEnter() {
     .catch((error) => console.error(error))
 }
 
+function navigateBar() {
+  $('.note').on('touchmove', function () {
+    if (event.targetTouches.length == 1) {
+      event.preventDefault() // 阻止浏览器默认事件，重要
+      var touch = event.targetTouches[0]
+      // 把元素放在手指所在的位置
+      $(this).css('top', touch.pageY - 19 + 'px')
+    }
+  })
+
+  $('.note').click(function () {
+    window.location.href = 'http://1.14.123.241:8000/'
+  })
+}
+
 function pageInit() {
   // 设置屏幕宽度固定
   setWidth()
   limitEnter()
+  navigateBar()
 }
