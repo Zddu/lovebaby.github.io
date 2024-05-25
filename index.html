@@ -1,64 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>温暖の小家</title>
+    <link rel="stylesheet" href="./common/common.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>温暖の小家</title>
-  <link rel="stylesheet" href="./common/common.css" />
-  <link rel="stylesheet" href="index.css" />
-</head>
-
-<body>
-  <div class="list">
-    <div class="bg"></div>
-    <a class="card" href="./520/index.html">
-      <div class="title">❥520</div>
-      <div class="bg-img bg520" style="background-image: url('./assets/520-card.png')"></div>
-      <div class="footer-info">
-        <div></div>
-        <div>Create By Zdde丶</div>
+  <body>
+    <div class="list">
+      <div class="bg"></div>
+      <a class="card" href="./520/index.html">
+        <div class="title">❥520</div>
+        <div
+          class="bg-img bg520"
+          style="background-image: url('./assets/520-card.png')"
+        ></div>
+        <div class="footer-info">
+          <div></div>
+          <div>Create By Zdde丶</div>
+        </div>
+      </a>
+      <div id="jump61" style="filter: blur(4px)" class="card">
+        <div class="title" style="color: rgb(245 140 37)">
+          谁还不是个宝宝了！
+        </div>
+        <div class="mask">
+          <div
+            class="bg-img bg61"
+            style="background-image: url('./assets/61-card.png')"
+          ></div>
+        </div>
+        <div class="footer-info">
+          <div></div>
+          <div>Create By Zdde丶</div>
+        </div>
       </div>
-    </a>
-    <a href="/61/index.html" class="card">
-      <div class="title">X · X</div>
-      <div class="bg-img bg61">
-        <video x5-video-player-fullscreen="true" x5-playsinline playsinline webkit-playsinline muted autoplay="autoplay"
-          loop="loop">
-          <source src="./assets/61video.mp4" type="video/mp4">
-          </source>
-        </video>
-      </div>
-      <div class="footer-info">
-        <div></div>
-        <div>Create By Zdde丶</div>
-      </div>
-    </a>
-  </div>
-</body>
-
-<script src="./common/jq.min.js"></script>
-<script src="./common/hm.js"></script>
-
-<script>
-  $(document).ready(function () {
-    var height = $(window).height()
-    $('html').css('height', height)
-
-    if ($(window).width() > 960) {
-      // 计算并设置页面的高度，使其与宽度保持 0.462 的比例
-      var newWidth = height * 0.462
-      $('html').css('width', newWidth)
-      $('html').css('margin', '0 auto')
-
-      // 监听窗口大小变化事件，实时调整页面高度
-      $(window).resize(function () {
-        height = $(window).height()
-        newWidth = height * 0.462
-        $('html').css('width', newWidth)
-      })
-    }
-  })
-</script>
-
+    </div>
+  </body>
+  <link rel="stylesheet" href="https://unpkg.com/mdui@2/mdui.css" />
+  <script src="https://unpkg.com/mdui@2/mdui.global.js"></script>
+  <script src="./common/moment.js"></script>
+  <script src="./common/jq.min.js"></script>
+  <script src="./common/hm.js"></script>
+  <script src="index.js"></script>
 </html>
