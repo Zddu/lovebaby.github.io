@@ -1,0 +1,170 @@
+[
+  {
+      "id": "1",
+      "name": "金色的房子",
+      "artistsname": "金色的房子",
+      "picurl": "../520/pic/wx1.jpg",
+      "url": "./mp3/金色的房子.m4a",
+      "musicDuration": "03:44"
+  },
+  {
+      "id": "2",
+      "name": "老爷爷的帽子",
+      "artistsname": "老爷爷的帽子",
+      "picurl": "../520/pic/wx1.jpg",
+      "url": "./mp3/金色的房子.m4a",
+      "musicDuration": "01:41"
+  },
+  {
+      "id": "3",
+      "name": "快乐的小白云",
+      "artistsname": "快乐的小白云",
+      "picurl": "../520/pic/wx1.jpg",
+      "url": "./mp3/金色的房子.m4a",
+      "musicDuration": "02:15"
+  },
+  {
+      "id": "4",
+      "name": "无尾大侠",
+      "artistsname": "无尾大侠",
+      "picurl": "../520/pic/wx1.jpg",
+      "url": "./mp3/金色的房子.m4a",
+      "musicDuration": "06:06"
+  },
+  {
+      "id": "5",
+      "name": "小星星的耳环",
+      "artistsname": "小星星的耳环",
+      "picurl": "../520/pic/wx1.jpg",
+      "url": "./mp3/金色的房子.m4a",
+      "musicDuration": "01:42"
+  },
+  {
+      "id": "6",
+      "name": "最美丽的脖子",
+      "artistsname": "最美丽的脖子",
+      "picurl": "../520/pic/wx1.jpg",
+      "url": "./mp3/金色的房子.m4a",
+      "musicDuration": "03:54"
+  },
+  {
+      "id": "7",
+      "name": "太阳公公请午睡",
+      "artistsname": "太阳公公请午睡",
+      "picurl": "../520/pic/wx1.jpg",
+      "url": "./mp3/金色的房子.m4a",
+      "musicDuration": "02:52"
+  },
+  {
+    "id": "8",
+    "name": "金色的房子",
+    "artistsname": "金色的房子",
+    "picurl": "../520/pic/wx1.jpg",
+    "url": "./mp3/金色的房子.m4a",
+    "musicDuration": "03:44"
+},
+{
+    "id": "9",
+    "name": "老爷爷的帽子",
+    "artistsname": "老爷爷的帽子",
+    "picurl": "../520/pic/wx1.jpg",
+    "url": "./mp3/金色的房子.m4a",
+    "musicDuration": "01:41"
+},
+{
+    "id": "10",
+    "name": "快乐的小白云",
+    "artistsname": "快乐的小白云",
+    "picurl": "../520/pic/wx1.jpg",
+    "url": "./mp3/金色的房子.m4a",
+    "musicDuration": "02:15"
+},
+{
+    "id": "11",
+    "name": "无尾大侠",
+    "artistsname": "无尾大侠",
+    "picurl": "../520/pic/wx1.jpg",
+    "url": "./mp3/金色的房子.m4a",
+    "musicDuration": "06:06"
+},
+{
+    "id": "12",
+    "name": "小星星的耳环",
+    "artistsname": "小星星的耳环",
+    "picurl": "../520/pic/wx1.jpg",
+    "url": "./mp3/金色的房子.m4a",
+    "musicDuration": "01:42"
+},
+{
+    "id": "13",
+    "name": "最美丽的脖子",
+    "artistsname": "最美丽的脖子",
+    "picurl": "../520/pic/wx1.jpg",
+    "url": "./mp3/金色的房子.m4a",
+    "musicDuration": "03:54"
+},
+{
+    "id": "14",
+    "name": "太阳公公请午睡",
+    "artistsname": "太阳公公请午睡",
+    "picurl": "../520/pic/wx1.jpg",
+    "url": "./mp3/金色的房子.m4a",
+    "musicDuration": "02:52"
+},
+{
+  "id": "15",
+  "name": "金色的房子",
+  "artistsname": "金色的房子",
+  "picurl": "../520/pic/wx1.jpg",
+  "url": "./mp3/金色的房子.m4a",
+  "musicDuration": "03:44"
+},
+{
+  "id": "16",
+  "name": "老爷爷的帽子",
+  "artistsname": "老爷爷的帽子",
+  "picurl": "../520/pic/wx1.jpg",
+  "url": "./mp3/金色的房子.m4a",
+  "musicDuration": "01:41"
+},
+{
+  "id": "17",
+  "name": "快乐的小白云",
+  "artistsname": "快乐的小白云",
+  "picurl": "../520/pic/wx1.jpg",
+  "url": "./mp3/金色的房子.m4a",
+  "musicDuration": "02:15"
+},
+{
+  "id": "18",
+  "name": "无尾大侠",
+  "artistsname": "无尾大侠",
+  "picurl": "../520/pic/wx1.jpg",
+  "url": "./mp3/金色的房子.m4a",
+  "musicDuration": "06:06"
+},
+{
+  "id": "19",
+  "name": "小星星的耳环",
+  "artistsname": "小星星的耳环",
+  "picurl": "../520/pic/wx1.jpg",
+  "url": "./mp3/金色的房子.m4a",
+  "musicDuration": "01:42"
+},
+{
+  "id": "20",
+  "name": "最美丽的脖子",
+  "artistsname": "最美丽的脖子",
+  "picurl": "../520/pic/wx1.jpg",
+  "url": "./mp3/金色的房子.m4a",
+  "musicDuration": "03:54"
+},
+{
+  "id": "21",
+  "name": "太阳公公请午睡",
+  "artistsname": "太阳公公请午睡",
+  "picurl": "../520/pic/wx1.jpg",
+  "url": "./mp3/金色的房子.m4a",
+  "musicDuration": "02:52"
+}
+]
