@@ -196,14 +196,67 @@
 }
 
 .dangao {
-  width: 178.54px;
-  height: 153.873px;
-  left: 197.333px;
-  top: 436.365px;
+  width: 153.286px;
+  height: 133.317px;
+  left: 0px;
+  top: 456.921px;
   position: absolute;
 
-  background-image: url('./assets/');
+  background-image: url('./assets/liwu-3-3.jpg');
   background-repeat: no-repeat;
-  background-size: 178.54px 153.891px;
+  background-size: 153.286px 133.835px;
   background-position: center center;
+}
+
+.xiangguang1 {
+  position: absolute;
+    width: 293.063px;
+    height: 239.619px;
+    top: 99.8413px;
+    left: 12.9206px;
+}
+
+.xiangguang2 {
+  position: absolute;
+    width: 293.063px;
+    height: 239.619px;
+    top: 290.714px;
+    left: 73.4127px;
+}
+
+.hands {
+  width: 169.73px;
+    height: 240.794px;
+    left: 65.7778px;
+    top: 104.0317px;
+    position: absolute;
+    overflow: hidden;
+    background-image: url('./assets/hands.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.laopo {
+  position: absolute;
+    background-image: url('./assets/laopo.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+
+    width: 169.73px;
+    height: 240.794px;
+    left: 144.476px;
+    top: 298.349px;
+}
+
+@keyframes slideInUp {
+  0% {
+      transform: translate3d(0,1000%,0);
+      visibility:hidden;
+  }
+
+  to {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      visibility:visible;
+  }
 }

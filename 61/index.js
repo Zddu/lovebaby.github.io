@@ -30,7 +30,10 @@ function fullPage() {
         fullpageIndex = origin.index()
         //使用 index
         if (origin.index() === 1) {
-          $('.page-2 .bg-page').addClass('animate__animated animate__bounceIn')
+          $('.page-2 .bg-page').addClass('animate__animated animate__zoomIn')
+          // $('.qiqiu-ani').addClass('animate__animated animate__slideInUp')
+
+          $('.page-2 .content').css('display', 'block')
         }
       },
     })
