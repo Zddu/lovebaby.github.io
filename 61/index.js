@@ -19,6 +19,8 @@ function init() {
   })
 
   fullPage()
+  danmu1(data, 0)
+  danmu2(data2, 0)
 }
 
 function fullPage() {
@@ -67,4 +69,31 @@ function fullPage() {
   document.addEventListener('click', function () {
     bgMusic.play()
   })
+}
+
+function danmu1(d1, i) {
+  var item = {
+    info: d1[i], //文字
+    speed: 8, //延迟,单位秒,默认8
+    color: '#fff', //颜色,默认白色
+    bottom: 0,
+  }
+  $('.danmu1').barrager(item)
+
+  setTimeout(() => {
+    danmu1(d1, i + 1)
+  }, 5000)
+}
+function danmu2(d2, i) {
+  var item = {
+    info: d2[i], //文字
+    speed: 8, //延迟,单位秒,默认8
+    color: '#fff', //颜色,默认白色
+    bottom: 0,
+  }
+  $('.danmu2').barrager(item)
+
+  setTimeout(() => {
+    danmu2(d2, i + 1)
+  }, 5000)
 }
