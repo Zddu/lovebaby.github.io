@@ -38,4 +38,33 @@ function fullPage() {
       },
     })
   })
+
+  var bgMusic = $('audio').get(0)
+  var $btnMusic = $('.btn-music')
+  var $upArrow = $('.up-arrow')
+
+  // background music control
+  $btnMusic.click(function (e) {
+    e.stopPropagation()
+
+    if (bgMusic.paused) {
+      bgMusic.play()
+      $(this).removeClass('paused')
+    } else {
+      bgMusic.pause()
+      $(this).addClass('paused')
+    }
+  })
+
+  document.addEventListener('touchstart', function () {
+    bgMusic.play()
+
+    if (fullpageIndex === 6) {
+      animate()
+    }
+  })
+
+  document.addEventListener('click', function () {
+    bgMusic.play()
+  })
 }
